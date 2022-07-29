@@ -1,0 +1,8 @@
+{% for pariente in parientes %}
+
+    <h1>El nombre del pariente es: {{pariente.name}}</h1>
+    <h1>Su apellido es: {{pariente.last_name}}</h1>
+    <h2>Su edad es: {{pariente.age}}</h2>
+    <h3>Su parentezco con el titular es: {{pariente.tipo_de_parentezco}}</h3>
+
+{% endfor %}
