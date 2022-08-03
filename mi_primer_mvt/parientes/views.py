@@ -2,7 +2,7 @@ from django.shortcuts import render
 from parientes.models import Parientes
 
 def create_datos_familiares(request):
-    new_parent = Parientes.objects.create(name = 'Silvana', last_name = 'Romano', age = 54, tipo_de_parentezco = 'Madre')
+    new_parent = Parientes.objects.create(name = 'Alan', last_name = 'Cantero', age = 27, tipo_de_parentezco = 'Hermano')
     context = {
         'new_parent': new_parent
     }
